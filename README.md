@@ -24,7 +24,7 @@ best_tag_sequence = crf.best_viterbi_tag(logits, mask)
 top_5_viterbi_tags = crf.viterbi_tags(logits, mask, top_k=5)
 ```
 ### LSTM CRF Implementation
-Refer to https://github.com/iamsimha/pytorch-text-crf/blob master/examples/pos_tagging/train.ipynb for a complete working implementation.
+Refer to https://github.com/iamsimha/pytorch-text-crf/blob/master/examples/pos_tagging/train.ipynb for a complete working implementation.
 ``` python
 from crf.crf import ConditionalRandomField
 
