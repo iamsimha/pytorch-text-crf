@@ -10,7 +10,7 @@ README = (HERE / "README.md").read_text()
 # This call to setup() does all the work
 setup(
     name="pytorch-text-crf",
-    version="1.0.0",
+    version="0.1",
     description="A simple crf module written in pytorch. The implementation is based\
                 https://github.com/allenai/allennlp/blob/master/allennlp/modules/conditional_random_field.py",
     long_description=README,

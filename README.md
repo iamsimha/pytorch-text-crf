@@ -1,8 +1,13 @@
 # PyTorch Text CRF
 This package contains a simple wrapper for using conditional random fields(CRF) for NLP applications. This code is based on the excellent Allen NLP implementation of CRF.
 
+## Installation
+```
+pip install pytorch-text-crf
+```
 
 ## Usage
+
 ```python
 from crf.crf import ConditionalRandomField
 
@@ -18,14 +23,14 @@ log_likelihood = crf(logits, tags, mask)
 best_tag_sequence = crf.best_viterbi_tag(logits, mask)
 top_5_viterbi_tags = crf.viterbi_tags(logits, mask, top_k=5)
 ```
-
+### LSTM CRF Implementation
+Refer to https://github.com/iamsimha/pytorch-text-crf/blob master/examples/pos_tagging/train.ipynb for a complete working implementation.
 ``` python
 from crf.crf import ConditionalRandomField
 
 class LSTMCRF:
     """
     An Example implementation for using a CRF model on top of LSTM.
-    Refer to github.com for a complete working implementation.
     """
     def __init__(self):
         ...
