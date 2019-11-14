@@ -15,7 +15,7 @@ setup(
                 https://github.com/allenai/allennlp/blob/master/allennlp/modules/conditional_random_field.py",
     long_description=README,
     long_description_content_type="text/markdown",
-    url="https://github.com/realpython/reader",
+    url="https://github.com/iamsimha/pytorch-text-crf",
     author="iamsimha",
     author_email="jayasimhatlr@gmail.com",
     license="MIT",

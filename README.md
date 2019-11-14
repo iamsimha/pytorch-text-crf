@@ -1,5 +1,5 @@
 # PyTorch Text CRF
-This package contains a simple wrapper for using conditional random fields(CRF) for NLP applications. This code is based on the excellent Allen NLP implementation of CRF.
+This package contains a simple wrapper for using conditional random fields(CRF). This code is based on the excellent Allen NLP implementation of CRF.
 
 ## Installation
 ```
